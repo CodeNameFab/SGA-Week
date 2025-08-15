@@ -24,7 +24,6 @@
       position:relative;
       min-height:100%;
     }
-    /* Background with blurred WSU logo */
     .page-bg{
       position:fixed;
       inset:0;
@@ -43,11 +42,10 @@
       background-size:3px 3px;
       mix-blend-mode:multiply;
     }
-
     header{
       position:sticky; top:0; z-index:10;
       backdrop-filter:saturate(1.1) blur(8px);
-      background:rgba(255,255,255,.8);
+      background:rgba(255,255,255,.85);
       border-bottom:1px solid rgba(0,0,0,.06);
     }
     .container{max-width:980px;margin:0 auto;padding:20px 24px}
@@ -60,7 +58,6 @@
     .logo img{width:100%;height:100%;object-fit:contain}
     .title{font-size:18px;margin:0;font-weight:700}
     .subtitle{font-size:12px;color:var(--muted);margin:0}
-
     .hero{padding:28px 0 8px;border-bottom:1px solid rgba(0,0,0,.06)}
     .tag{display:inline-block;border:1px solid var(--shockers-gold);color:#7a5c00;
       background:linear-gradient(#fff7d6,#fff);
@@ -68,7 +65,6 @@
     .hero h1{font-size:28px;margin:6px 0 2px}
     .hero p{margin:6px 0;color:#30343a}
     .small{font-size:12px;color:#6a717a}
-
     .section-title{margin:20px 0 8px 0;font-size:20px}
     .grid{display:grid;grid-template-columns:1fr;gap:16px;margin:18px 0 28px}
     @media (min-width:740px){ .grid{grid-template-columns:1fr 1fr} }
@@ -85,7 +81,6 @@
     .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;
       border:1px solid #e5e7eb;background:#FFB81C;color:#111;font-weight:700;font-size:14px}
     .btn:hover{filter:brightness(0.95)}
-
     footer{border-top:1px solid rgba(0,0,0,.06);margin-top:10px;padding:18px 0;color:#656b74;font-size:13px}
     footer a{color:#1d1d1d}
   </style>
@@ -116,15 +111,15 @@
 
     <h2 class="section-title">This Week</h2>
     <div class="grid">
-      <!-- MONDAY: restored + signup button inside card -->
+      <!-- MONDAY -->
       <article class="card" id="mon">
-        <h3>Monday · Shocker Snow Day + Cornhole Classic</h3>
+        <h3>Monday · Shocker Snow Cone Day + Cornhole Classic</h3>
         <div class="meta">
           <span>Mon, Sept 8</span>
           <span>11:00 AM – 1:00 PM</span>
           <span>Honors College Courtyard</span>
         </div>
-        <p>Free Kona Ice (while supplies last), a visible mini cornhole tournament, and a relaxed chill zone to kick off SGA Week.</p>
+        <p>Free Kona Ice (while supplies last) and a cornhole tournament to kick off SGA Week.</p>
         <div class="btnrow">
           <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeA9xOzGW_LU4r6JPPFoTxagjsZneoEXrxF1P0RZrc0wrpNGA/viewform?usp=dialog" target="_blank" rel="noopener">Sign Up to Play</a>
         </div>
@@ -132,12 +127,13 @@
 
       <!-- TUESDAY -->
       <article class="card" id="tue">
-        <h3>Tuesday · Open Promotion Day</h3>
+        <h3>Tuesday · Coffee Daze Popup</h3>
         <div class="meta">
           <span>Tue, Sept 9</span>
-          <span>Campus-wide</span>
+          <span>9:00 AM – 11:00 AM</span>
+          <span>RSC North Patio</span>
         </div>
-        <p>No formal event. Look for promo tables, giveaways, and chalking about Wed–Fri activities.</p>
+        <p>Grab a free coffee or tea on your way to class and learn about the week’s events. A quick pop‑up welcome powered by SGA and the RSC.</p>
       </article>
 
       <!-- WEDNESDAY -->
@@ -157,9 +153,9 @@
         <div class="meta">
           <span>Thu, Sept 11</span>
           <span>11:00 AM – 2:00 PM</span>
-          <span>Duerksen Amphitheater</span>
+          <span>Shocker Hall Plaza</span>
         </div>
-        <p>Food trucks with free voucher servings, continuous live music (instrumental sets + band), and a relaxed lawn hangout.</p>
+        <p>Food trucks with free voucher servings, live music, and a relaxed lawn hangout.</p>
       </article>
 
       <!-- FRIDAY -->
